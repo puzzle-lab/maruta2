@@ -14,9 +14,17 @@ body{
     height: 100vh;
 }
 
+.gradient-border {
+    margin-top: 20px;
+    border: 1px solid rgb(226, 225, 225);
+    border-radius: 23px;
+    padding: 20px 40px 35px 40px;  /* 선택적인 내부 여백(padding) 추가 */
+    box-shadow: 0 2px 4px rgb(210, 210, 210);
+}
+
 form img{
     width: 124px; 
-    margin-left: 71px;
+    margin-left: 109px;
     
 }
 
@@ -26,10 +34,10 @@ form img{
     border-radius: 8px;
     border: none;
     padding: 8px;
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(235, 232, 232);
     align-items: center;
-    margin-top: 45px;
-    box-shadow: 0 3px 5px rgb(123, 122, 122);
+    margin-top: 10px;
+    box-shadow: 0 3px 5px rgb(174, 173, 173);
     transition: transform 0.7s ease-in-out;
 }
 
@@ -39,10 +47,10 @@ form img{
     border-radius: 8px;
     border: none;
     padding: 8px;
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(235, 232, 232);
     align-items: center;
     margin-top: 15px;
-    box-shadow: 0 3px 5px rgb(123, 122, 122);
+    box-shadow: 0 3px 5px rgb(174, 173, 173);
     transition: transform 0.7s ease-in-out;
 }
 
@@ -57,7 +65,7 @@ form img{
     align-items: center;
     margin-top: 35px;
     background-color: #f9f9f9;
-    box-shadow: 0 3px 5px rgb(123, 122, 122);
+    box-shadow: 0 3px 5px rgb(174, 173, 173);
     transition: transform 0.7s ease-in-out;
 }
 
@@ -77,6 +85,8 @@ form img{
 .bottom a{
     text-decoration: none;
     transition: text-shadow 0.7s ease;
+    color:rgb(170, 168, 168);
+    font-weight: bold;
 }
 
 .bottom a:hover{
